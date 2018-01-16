@@ -21,13 +21,13 @@
                 if (secondArg !== 0) {
                     vm.result = firstArg / secondArg;
                 } else {
-                    vm.result = 'Cannot divide by zero'
+                    vm.result = 'Cannot divide by zero';
                 }
             } else if (operator === "multiply") {
                 vm.result = firstArg * secondArg;
             }
             else {
-                vm.result = "Operator not implemented"
+                vm.result = "Operator not implemented";
             }
         }
     }
