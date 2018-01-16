@@ -27,7 +27,7 @@
                 vm.result = firstArg * secondArg;
             }
             else {
-                vm.result = "not implemented"
+                vm.result = "Operator not implemented"
             }
         }
     }

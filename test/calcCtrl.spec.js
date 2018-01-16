@@ -173,16 +173,16 @@ describe('the calculation controller', function () {
             });
         });
 
-        describe('multiply operator', function () {
-            var operator = 'multiply';
-
-            it('should not be implemented', function () {
-                var ctrl = createController();
-                ctrl.calculate(10, 10, operator);
-
-                expect(ctrl.result).toBe('Operator not implemented');
-            });
-        });
+ //       describe('multiply operator', function () {
+ //           var operator = 'multiply';
+ //
+ //           it('should not be implemented', function () {
+ //               var ctrl = createController();
+ //               ctrl.calculate(10, 10, operator);
+ //
+ //               expect(ctrl.result).toBe('Operator not implemented');
+ //           });
+ //       });
 
         it('undefined operator should not be implemented', function () {
             var ctrl = createController();
