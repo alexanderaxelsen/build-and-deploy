@@ -8,3 +8,9 @@ dependencies:
 test:
  override:
    - grunt test
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+    appname: foo-calc-123
