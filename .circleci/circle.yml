@@ -10,7 +10,7 @@ test:
    - grunt test
 
 deployment:
-  staging:
+  prod:
     branch: master
     heroku:
       appname: foo-calc-123
